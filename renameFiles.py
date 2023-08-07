@@ -12,7 +12,6 @@ if(subcarpetaName=="\\"):
 else:
     folder = SourceFolder + subcarpetaName
     listaFicheros = os.listdir(folder)
-    print(listaFicheros)
 
     for i in range(len(listaFicheros)):
         print(listaFicheros[i])
